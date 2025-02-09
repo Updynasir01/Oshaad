@@ -1,0 +1,84 @@
+@import "tailwindcss";
+
+
+@import url('https://fonts.googleapis.com/css2?family=David+Libre:wght@400;500;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+.david-libre-font {
+  font-family: 'David Libre', 'Inter', serif;
+
+}
+
+
+
+@keyframes rectangleAnimation {
+  0%, 100% {
+      transform: scaleY(1);
+  }
+  50% {
+      transform: scaleY(1.2);
+  }
+}
+
+@keyframes circle1Animation {
+  0%, 100% {
+      transform: translateY(0);
+  }
+  50% {
+      transform: translateY(-5px);
+  }
+}
+
+@keyframes circle2Animation {
+  0%, 100% {
+      transform: translateY(0);
+  }
+  50% {
+      transform: translateY(-3px);
+  }
+}
+
+@keyframes circle3Animation {
+  0%, 100% {
+      transform: translateY(0);
+  }
+  50% {
+      transform: translateY(-3px);
+  }
+}
+
+.animate-rectangle {
+  animation: rectangleAnimation 2s infinite ease-in-out;
+}
+
+.animate-circle1 {
+  animation: circle1Animation 2s infinite ease-in-out;
+}
+
+.animate-circle2 {
+  animation: circle2Animation 2s infinite ease-in-out;
+}
+
+.animate-circle3 {
+  animation: circle3Animation 2s infinite ease-in-out;
+}
+
+
+@keyframes moveTopDown {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px); /* Move up */
+    }
+    100% {
+      transform: translateY(0); /* Move back down */
+    }
+  }
+
+  .animated {
+    animation: moveTopDown 3s ease-in-out infinite;
+  }
+
