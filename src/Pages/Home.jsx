@@ -4,7 +4,7 @@ import { SlSocialInstagram } from "react-icons/sl";
 import { GrFacebookOption } from "react-icons/gr";
 import { IoLogoTiktok } from "react-icons/io5";
 import vector2 from "../assets/images/Vector2.png"
-import vector1 from "../assets/images/Vector1.png"
+import Vector1 from "../assets/images/Vector1.png"
 import vector3 from "../assets/images/vector3.png"
 import logo from "../assets/images/logo.jpg"
 import logo2 from "../assets/images/logo2.jpg"
@@ -90,7 +90,7 @@ function Home(){
       <div className="relative mt-10 lg:mt-0">
         <img className="rounded-tl-[70px] rounded-br-[70px] rounded-bl-2xl rounded-tr-2xl hidden sm:block" src={view} alt="Restaurant view" />
         <img className="absolute bottom-4 -left-20 hidden sm:block" src={dish1} alt="Dish" />
-        <img className="absolute -top-24 -left-36 -z-10 opacity-10" src={vector1} alt="Decoration vector" />
+        <img className="absolute -top-24 -left-36 -z-10 opacity-10" src={Vector1} alt="Decoration vector" />
         <img className="absolute -top-24 -right-24 -z-10 opacity-10" src={vector2} alt="Decoration vector" />
         <img className="absolute bottom-4 -right-24 -z-10 opacity-45" src={vector3} alt="Decoration vector" />
       </div>
