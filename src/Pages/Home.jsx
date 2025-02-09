@@ -4,7 +4,7 @@ import { SlSocialInstagram } from "react-icons/sl";
 import { GrFacebookOption } from "react-icons/gr";
 import { IoLogoTiktok } from "react-icons/io5";
 import vector2 from "../assets/images/Vector2.png"
-import vector1 from "../assets/images.Vector1.png"
+import vector1 from "../assets/images/Vector1.png"
 import vector3 from "../assets/images/vector3.png"
 import logo from "../assets/images/logo.jpg"
 import logo2 from "../assets/images/logo2.jpg"
