@@ -10,9 +10,11 @@ import logo from "../assets/images/logo.jpg"
 import logo2 from "../assets/images/logo2.jpg"
 import { IoMdClose } from "react-icons/io";
 import { useState } from "react";
+// import React, { useState } from "react";
 import { HiOutlineBars3BottomRight } from "react-icons/hi2";
+import { FaChevronDown } from "react-icons/fa";
 function Home(){
-
+    const [activeMenu, setActiveMenu] = useState(null);
     const [Open ,setOpen ]=useState(false)
     const handleOpen =()=>{
         setOpen(true)
@@ -20,6 +22,10 @@ function Home(){
     const handleClose =()=>{
         setOpen(false)
     }
+
+    const toggleMenu = (menu) => {
+        setActiveMenu(activeMenu === menu ? null : menu);
+      };
 
 
  
@@ -41,14 +47,37 @@ function Home(){
 
       <div >
         <ul  style={{display :Open ==true? "block" :""  }} className="hidden absolute sm:top-0  top-14 right-4 transition-all duration-500 bg-white shadow-lg rounded-lg p-5 z-50 animate-slide-in   ">
-        <li className="py-2 sm:py-0 cursor-pointer hover:text-[#EA6D27] transition-colors duration-300">Menu</li>
+        {/* <li className="py-2 sm:py-0 cursor-pointer hover:text-[#EA6D27] transition-colors flex duration-300"> </li> */}
+        <li className="relative group cursor-pointer">
+            <span onClick={() => toggleMenu("foods")} className="flex  items-center">
+              Menu <FaChevronDown className="ml-1 mt-1 text-sm" />
+            </span>
+            {activeMenu === "foods" && (
+              <ul className="absolute left-0 mt-2 w-40 bg-white text-black shadow-md rounded-lg p-2 space-y-2">
+                {/* <li className="hover:bg-[#EA6D27] hover:text-white p-2 rounded">Main Dishes</li> */}
+                <li className="hover:text-[#EA6D27]  p-2 rounded">Foods</li>
+                <li className="hover:text-[#EA6D27]  p-2 rounded">Drinks</li>
+              </ul>
+            )}
+          </li>
         <li className="py-2 sm:py-0 cursor-pointer hover:text-[#EA6D27] transition-colors duration-300">Events</li>
         <li className="py-2 sm:py-0 cursor-pointer hover:text-[#EA6D27] transition-colors duration-300">Gallery</li>
         <li className="py-2 sm:py-0 cursor-pointer hover:text-[#EA6D27] transition-colors duration-300">About</li>
         <li className="py-2 sm:py-0 cursor-pointer hover:text-[#EA6D27] transition-colors duration-300">Contact</li>
         </ul>
         <ul  className="hidden  sm:flex gap-4 md:gap-8 font-sans">
-          <li>Menu</li>
+           <li className="relative group cursor-pointer">
+            <span onClick={() => toggleMenu("foods")} className="flex  items-center">
+              Menu <FaChevronDown className="ml-1 mt-1 text-sm" />
+            </span>
+            {activeMenu === "foods" && (
+              <ul className="absolute left-0 mt-2 w-40 bg-white text-black shadow-md rounded-lg p-2 space-y-2">
+                {/* <li className="hover:bg-[#EA6D27] hover:text-white p-2 rounded">Main Dishes</li> */}
+                <li className="hover:text-[#EA6D27]  p-2 rounded">Foods</li>
+                <li className="hover:text-[#EA6D27]  p-2 rounded">Drinks</li>
+              </ul>
+            )}
+          </li>
           <li>Events</li>
           <li>Gallery</li>
           <li>About</li>
