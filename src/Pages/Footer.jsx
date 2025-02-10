@@ -22,8 +22,8 @@ function Footer (){
             </div>
             <p className="w-[300px] text-[#5C6574] mt-4 text-[14px]" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore .Learn more</p>
             <h6 className="mt-5 font-bold text-[12px]" >OPENING HOURS</h6>
-            <p className="mt-5 text-[#5C6574] text-[15px]">Monday - Friday  <span className="ml-12">Saturday </span>  <span className="ml-24">Sunday</span></p>
-            <p className="mt-1 text-[#5C6574] text-[15px]">8:00 am to 9:00 pm  <span className="ml-8">8:00 am to 9:00 pm </span>  <span className="ml-8">CLOSED</span></p>
+            <p className="mt-5 text-[#5C6574] text-[15px]">Monday - Friday  </p>
+            <p className="mt-1 text-[#5C6574] text-[15px]">8:00 am to 9:00 pm  </p>
 
         </div>
         <div className="flex gap-14">
