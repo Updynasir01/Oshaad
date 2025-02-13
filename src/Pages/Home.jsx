@@ -10,6 +10,7 @@ import logo from "../assets/images/logo.jpg"
 import logo2 from "../assets/images/logo2.jpg"
 import { IoMdClose } from "react-icons/io";
 import { useState } from "react";
+import bkl from "../assets/images/bkl.jpg"
 // import { Link } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 // import React, { useState } from "react";
@@ -40,7 +41,7 @@ function Home(){
           <img className="h-20 hidden sm:hidden" src={logo2} alt="Logo" />
 
           <h1 className="lg:text-xl text-[15px]  md:text-2xl font-bold hdden sm:block">
-            Oshaad <span className="text-[#EA6D27]">ToGo</span>
+            Oshaad<span className="text-[#EA6D27]">ToGo</span>
           </h1>
           <HiOutlineBars3BottomRight onClick={handleOpen}   style={{display : Open == true? "none" :""  }} className="sm:hidden absolute right-9  text-3xl md:text-4xl" />
           <IoMdClose onClick={handleClose}  style={{display : Open == true? "block" :""  }}  className="sm:hidden hidden absolute right-9  text-3xl md:text-4xl"/>
@@ -125,8 +126,8 @@ function Home(){
       </div>
 
       <div className="relative mt-10 lg:mt-0">
-        <img className="rounded-tl-[70px] rounded-br-[70px] rounded-bl-2xl rounded-tr-2xl hidden sm:block" src={view} alt="Restaurant view" />
-        <img className="absolute bottom-4 -left-20 hidden sm:block" src={dish1} alt="Dish" />
+        <img className="rounded-tl-[70px] rounded-br-[70px] h-[700px] rounded-bl-2xl rounded-tr-2xl hidden sm:block" src={bkl} alt="Restaurant view" />
+        {/* <img className="absolute bottom-4  hidden sm:block" src={dish1} alt="Dish" /> */}
         <img className="absolute -top-24 -left-36 -z-10 opacity-10" src={Vector1} alt="Decoration vector" />
         <img className="absolute -top-24 -right-24 -z-10 opacity-10" src={vector2} alt="Decoration vector" />
         <img className="absolute bottom-4 -right-24 -z-10 opacity-45" src={vector3} alt="Decoration vector" />

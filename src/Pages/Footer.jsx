@@ -20,7 +20,7 @@ function Footer (){
                 </div>
                 <h1 className="text-[30px] font-bold ">Oshaad<span className="text-[#EA6D27]">ToGo</span></h1>
             </div>
-            <p className="w-[300px] text-[#5C6574] mt-4 text-[14px]" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore .Learn more</p>
+            <p className="w-[300px] text-[#5C6574] mt-4 text-[14px]" >Welcome to OshaadToGo! Savor fresh, flavorful dishes in a cozy setting. Perfect for any occasion. Reserve your table today!</p>
             <h6 className="mt-5 font-bold text-[12px]" >OPENING HOURS</h6>
             <p className="mt-5 text-[#5C6574] text-[15px]">Monday - Friday  </p>
             <p className="mt-1 text-[#5C6574] text-[15px]">8:00 am to 9:00 pm  </p>
@@ -39,10 +39,10 @@ function Footer (){
         <div className="mt-9">
             <h1 className="text-[12px] text-[#101A24] font-bold">DISHES</h1>
             <ul className="text-[#5C6574] text-[15px] ">
-                <li className="mt-3">Fish & Viggies</li>
-                <li className="mt-2">Tofu Chili</li>
-                <li className="mt-2">Egg & Cocumber</li>
-                <li className="mt-2">Lumpia w/Suace</li>
+                <li className="mt-3">Salad & Fish</li>
+                <li className="mt-2">Malawac & Odkac</li>
+                <li className="mt-2">Rice Sab</li>
+                <li className="mt-2">Seafood</li>
             </ul>
         </div>
         </div>
