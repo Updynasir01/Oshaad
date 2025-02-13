@@ -36,10 +36,10 @@ function Home(){
     <div className="flex items-center justify-between">
       <div className="flex gap-3 items-center">
         <div className="flex items-center gap-4  md:gap-8">
-          <img className="h-10 hidden sm:block" src={logo} alt="Logo" />
-          <img className="h-12 sm:hidden" src={logo2} alt="Logo" />
+          <img className="h-12 sm:10 hidn sm:block" src={logo} alt="Logo" />
+          <img className="h-20 hidden sm:hidden" src={logo2} alt="Logo" />
 
-          <h1 className="text-xl md:text-2xl font-bold hidden sm:block">
+          <h1 className="lg:text-xl text-[15px]  md:text-2xl font-bold hdden sm:block">
             Oshaad <span className="text-[#EA6D27]">ToGo</span>
           </h1>
           <HiOutlineBars3BottomRight onClick={handleOpen}   style={{display : Open == true? "none" :""  }} className="sm:hidden absolute right-9  text-3xl md:text-4xl" />
@@ -100,7 +100,14 @@ function Home(){
           Welcome to OshaadToGo! Savor fresh, flavorful dishes in a cozy setting. Perfect for any occasion. Reserve your table today!
         </p>
         <div className="mt-6 flex gap-4">
-          <button className="w-28 h-12 text-white rounded-tl-lg rounded-br-lg bg-black font-serif">Menu</button>
+          <button onClick={() => toggleMenu("foods")}  className="w-32 lg:flex md:flex  hidden justify-center p-2 gap-2 items-center h-12 text-white rounded-tl-lg rounded-br-lg  bg-black font-serif">Menu  <FaChevronDown className=" " /> </button>
+          <button onClick={() => toggleMenu("foods")}  className="w-32 lg:hidden md:hidden flex justify-center p-2 gap-2 items-center h-12 text-white rounded-tl-lg rounded-br-lg  bg-black font-serif">Menu  <FaChevronDown className=" " />  {activeMenu === "foods" && (
+              <ul className="absolute left-0 mt-2 w-40 bg-white text-black shadow-md rounded-lg p-2 space-y-2">
+                {/* <li className="hover:bg-[#EA6D27] hover:text-white p-2 rounded">Main Dishes</li> */}
+                <li className="hover:text-[#EA6D27]  p-2 rounded">Foods</li>
+               <NavLink to="/Drinks"> <li className="hover:text-[#EA6D27]  p-2 rounded">Drinks</li></NavLink>
+              </ul>
+            )} </button>
           <button className="w-36 h-12 text-white rounded-tl-lg rounded-br-lg bg-[#EA6D27] font-serif">Book a table</button>
         </div>
         <div className="flex mt-10 gap-4 items-center">
