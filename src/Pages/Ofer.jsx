@@ -3,6 +3,7 @@ import { IoRocketOutline } from "react-icons/io5";
 import { TfiFaceSmile } from "react-icons/tfi";
 // import tuun from "../assets/images/tuun.png"
 import chef1 from "../assets/images/chef1.png"
+import moon from "../assets/images/moon.jpg"
 function Costumers (){
    
  return  <div className="px-6 md:px-16 lg:px-28 pt-16 md:pt-20 lg:pt-24">
@@ -53,7 +54,7 @@ function Costumers (){
       </div>
 
       <div className="">
-        <img src={chef1} alt="Chef" className="w-full max-w-sm lg:max-w-md " />
+        <img src={moon} alt="Chef" className="w-full rounded-tl-[70px] rounded-br-[70px]  rounded-bl-2xl rounded-tr-2xl max-w-sm lg:max-w-md " />
         {/* <img src={tuun} alt="Decoration" className="absolute -top-10 -left-5 h-32 md:h-40 lg:h-48" /> */}
       </div>
     </div>

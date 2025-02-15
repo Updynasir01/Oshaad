@@ -85,11 +85,11 @@ function Footer (){
      <div className="mt-4 border-t text-[#EA6D27] border-gray-500 pt-4 text-center">
           <p className="text-sm">&copy; {new Date().getFullYear()} OshaadToGo. All rights reserved.</p>
         </div>
-        <div className="mt-2 text-[#EA6D27] text-center">
+        {/* <div className="mt-2 text-[#EA6D27] text-center">
           <a href="/privacy" className="text-sm hover:underline">Privacy Policy</a>
           <span className="mx-2">|</span>
           <a href="/terms" className="text-sm hover:underline">Terms of Service</a>
-        </div>
+        </div> */}
 
     </div>
 }

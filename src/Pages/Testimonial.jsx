@@ -3,33 +3,37 @@ import { useState } from 'react';
 import { ChevronLeft, ChevronRight, Star } from 'lucide-react';
 import cta from "../assets/images/cta.png"
 import SYD from "../assets/images/SYD.jpg"
+import ert from "../assets/images/ert.jpg"
+import fco from "../assets/images/fco.jpg"
+import vbn from "../assets/images/vbn.jpg"
+import w from "../assets/images/w.jpg"
 import Footer  from "./Footer";
 
 
 const testimonials = [
   {
     name: 'Abdinasir',
-    title: 'CEO & Founder Inc',
+    title: '',
     feedback: '"The food was absolutely amazing! The fresh ingredients, perfect seasoning, and attention to detail in every dish made for an unforgettable dining experience. Each bite was packed with flavor, and I could tell the food was made with care. OshaadToGo truly brings restaurant-quality meals straight to your door. I’ll definitely be ordering again!".',
-    image: SYD,
+    image: ert,
   },
   {
-    name: 'Nuradiin',
-    title: 'Marketing Director',
+    name: 'Dr.kaafi',
+    title: '',
     feedback: '"Fast delivery and the flavors were spot on! Every dish was bursting with authentic taste, and you could tell it was made with high-quality ingredients. The convenience of quick delivery paired with such delicious meals makes OshaadToGo stand out. Highly recommend it to anyone looking for a top-notch meal experience!" ',
-    image: SYD,
+    image: fco,
+  },
+  {
+    name: 'Muna Miski',
+    title: '',
+    feedback: '"Incredible service and delicious meals! The quality and taste of the food exceeded my expectations, and the delivery was prompt and seamless. I will definitely be ordering again and recommending OshaadToGo to friends and family!"',
+    image: vbn,
   },
   {
     name: 'Abdinasir',
-    title: 'Product Manager',
+    title: '',
     feedback: '"Incredible service and delicious meals! The quality and taste of the food exceeded my expectations, and the delivery was prompt and seamless. I will definitely be ordering again and recommending OshaadToGo to friends and family!"',
-    image: SYD,
-  },
-  {
-    name: 'Abdinasir',
-    title: 'Product Manager',
-    feedback: '"Incredible service and delicious meals! The quality and taste of the food exceeded my expectations, and the delivery was prompt and seamless. I will definitely be ordering again and recommending OshaadToGo to friends and family!"',
-    image: SYD,
+    image: w,
   },
 ];
 

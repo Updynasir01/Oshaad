@@ -63,7 +63,7 @@ function Tijaabo (){
             </button>
             {activeMenu === "foods" && (
               <ul className="space-y-2 pl-4">
-                <li className="hover:bg-[#EA6D27] hover:text-white p-2 rounded">Main Dishes</li>
+                <li className="hover:bg-[#EA6D27] hover:text-white p-2 rounded">Main  Dishes</li>
                 <li className="hover:bg-[#EA6D27] hover:text-white p-2 rounded">Appetizers</li>
                 <li className="hover:bg-[#EA6D27] hover:text-white p-2 rounded">Desserts</li>
               </ul>
