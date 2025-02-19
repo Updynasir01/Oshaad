@@ -1,5 +1,5 @@
-import view from "../assets/images/view.png"
-import dish1 from "../assets/images/dish1.png"
+// import view from "../assets/images/view.png"
+// import dish1 from "../assets/images/dish1.png"
 import { SlSocialInstagram } from "react-icons/sl";
 import { GrFacebookOption } from "react-icons/gr";
 import { IoLogoTiktok } from "react-icons/io5";
@@ -87,9 +87,9 @@ function Home(){
         </ul>
       </div>
 
-      <button className="hidden sm:block w-32 md:w-36 h-12 md:h-14 text-white rounded-tl-lg md:rounded-tl-xl rounded-br-lg md:rounded-br-xl bg-[#EA6D27] font-serif">
+      <NavLink to="/Booking"><button className="hidden sm:block w-32 md:w-36 h-12 md:h-14 text-white rounded-tl-lg md:rounded-tl-xl rounded-br-lg md:rounded-br-xl bg-[#EA6D27] font-serif">
         Book a table
-      </button>
+      </button></NavLink>
     </div>
 
     <div className="mt-20 md:mt-32 flex flex-col lg:flex-row justify-between items-center">
@@ -109,7 +109,7 @@ function Home(){
                <NavLink to="/Drinks"> <li className="hover:text-[#EA6D27]  p-2 rounded">Drinks</li></NavLink>
               </ul>
             )} </button>
-          <button className="w-36 h-12 text-white rounded-tl-lg rounded-br-lg bg-[#EA6D27] font-serif">Book a table</button>
+          <NavLink to="/Booking"><button className="w-36 h-12 text-white rounded-tl-lg rounded-br-lg bg-[#EA6D27] font-serif">Book a table</button></NavLink> 
         </div>
         <div className="flex mt-10 gap-4 items-center">
           <div className="w-8  hover:border-[#EA6D27] h-8 flex items-center justify-center rounded-full border">

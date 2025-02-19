@@ -1,9 +1,9 @@
 import vector4 from "../assets/images/vector4.png"
 import vector5 from "../assets/images/vector5.png"
-import dish9 from "../assets/images/dish9.png"
-import dish12 from "../assets/images/dish12.png"
-import dish44 from "../assets/images/dish44.png"
-import dish32 from "../assets/images/dish32.png"
+// import dish9 from "../assets/images/dish9.png"
+// import dish12 from "../assets/images/dish12.png"
+// import dish44 from "../assets/images/dish44.png"
+// import dish32 from "../assets/images/dish32.png"
 import hi from "../assets/images/hi.png"
 import how from "../assets/images/how.png"
 import basal from "../assets/images/basal.png"
@@ -11,7 +11,8 @@ import tuun from "../assets/images/tuun.png"
 import burg from "../assets/images/burg.png"
 import shuw from "../assets/images/shuw.png"
 import dish1 from "../assets/images/dish1.png"
-import eg from "../assets/images/eg.png"
+import { NavLink } from "react-router-dom"
+// import eg from "../assets/images/eg.png"
 // import sharax from "../assets/images/sharax.png"
 
 function Special () {
@@ -89,9 +90,9 @@ function Special () {
       <button className="w-28 h-12 text-white rounded-tl-lg rounded-br-lg bg-black font-serif">
         Menu
       </button>
-      <button className="w-36 ml-4 h-12 text-white rounded-tl-lg rounded-br-lg bg-[#EA6D27] font-serif">
+      <NavLink to="/Booking"><button className="w-36 ml-4 h-12 text-white rounded-tl-lg rounded-br-lg bg-[#EA6D27] font-serif">
         Book a table
-      </button>
+      </button></NavLink>
     </div>
     <img className="hidden md:block absolute -top-16 -left-16 lg:-top-[100px] lg:-left-32" src={vector5} alt="" />
   </div>
