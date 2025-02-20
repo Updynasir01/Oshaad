@@ -58,7 +58,7 @@ function Home(){
             {activeMenu === "foods" && (
               <ul className="absolute left-0 mt-2 w-40 bg-white text-black shadow-md rounded-lg p-2 space-y-2">
                 {/* <li className="hover:bg-[#EA6D27] hover:text-white p-2 rounded">Main Dishes</li> */}
-                <li className="hover:text-[#EA6D27]  p-2 rounded">Foods</li>
+                <NavLink to="/Foods"><li className="hover:text-[#EA6D27]  p-2 rounded">Foods</li></NavLink>
            <NavLink to="/Drinks"> <li className="hover:text-[#EA6D27]  p-2 rounded">Drinks</li> </NavLink> 
               </ul>
             )}
@@ -76,7 +76,7 @@ function Home(){
             {activeMenu === "foods" && (
               <ul className="absolute left-0 mt-2 w-40 bg-white text-black shadow-md rounded-lg p-2 space-y-2">
                 {/* <li className="hover:bg-[#EA6D27] hover:text-white p-2 rounded">Main Dishes</li> */}
-                <li className="hover:text-[#EA6D27]  p-2 rounded">Foods</li>
+               <NavLink to="/Foods"> <li className="hover:text-[#EA6D27]  p-2 rounded">Foods</li></NavLink>
                <NavLink to="/Drinks"> <li className="hover:text-[#EA6D27]  p-2 rounded">Drinks</li></NavLink>
               </ul>
             )}
