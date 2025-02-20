@@ -14,8 +14,8 @@ function Dinner (){
                        </div>
                        <div className="px-24 pt-14">
                        <div className="mt-20 lg:grid lg:grid-cols-5 gap-20 md:grid md:grid-cols-3 grid grid-cols-1">
-                        <div className="h-[300px] p-2  w-[300px]">
-                                        <img className="h-[270px] rounded-md w-[270px]  "  src={kuul} alt="" />
+                        <div className="h-[300px] p-2  w-[200px]">
+                                        <img className="h-[200px] rounded-md w-[170px]  "  src={kuul} alt="" />
                                         <h6 className="text-[#101A24] mt-2 text-[16px] font-bold">Strawberry Shake<span className="text-[15px] text-[#5C6574] font-medium " >/ $2.40</span></h6>
                                         <p className="text-[#5C6574]">Creamy, fruity, and perfectly sweet!</p>
                         
