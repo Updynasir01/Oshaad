@@ -25,7 +25,7 @@ function Foods (){
                     <MdOutlineLunchDining className="text-6xl ml-16" />
                 </div>
                 <div className="w-[180px] h-[180px] pt-7 bg-[#EA6D27] items-center text-center rounded-md  text-white"  >
-                    <h1 className="text-3xl font-bold">Dinner</h1>
+                    <h1 className="text-3xl font-bold">Break-fast</h1>
                     
                     <MdBreakfastDining className="text-6xl ml-16" />
                 </div>
