@@ -6,6 +6,7 @@ import Hot from "./Pages/Hot"
 import About from "./Pages/About"
 import Foods from "./Pages/Foods"
 import Dinner from "./Pages/Dinner"
+import Lunch from "./Pages/Lunch"
 function App (){
     return <Routes>
         <Route path="/" element={<All />}  ></Route>
@@ -15,6 +16,7 @@ function App (){
         <Route path="/About" element={<About/>}  ></Route>
         <Route path="/Foods" element={<Foods/>}  ></Route>
         <Route path="/Dinner" element={<Dinner/>}  ></Route>
+        <Route path="/Lunch" element={<Lunch/>}  ></Route>
 
     </Routes>
 

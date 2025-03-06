@@ -12,13 +12,13 @@ import Footer  from "./Footer";
 
 const testimonials = [
   {
-    name: 'Abdinasir',
+    name: 'Eng. Yonis',
     title: '',
     feedback: '"The food was absolutely amazing! The fresh ingredients, perfect seasoning, and attention to detail in every dish made for an unforgettable dining experience. Each bite was packed with flavor, and I could tell the food was made with care. OshaadToGo truly brings restaurant-quality meals straight to your door. I’ll definitely be ordering again!".',
     image: ert,
   },
   {
-    name: 'Dr.kaafi',
+    name: 'Dr.Ck',
     title: '',
     feedback: '"Fast delivery and the flavors were spot on! Every dish was bursting with authentic taste, and you could tell it was made with high-quality ingredients. The convenience of quick delivery paired with such delicious meals makes OshaadToGo stand out. Highly recommend it to anyone looking for a top-notch meal experience!" ',
     image: fco,
@@ -30,7 +30,7 @@ const testimonials = [
     image: vbn,
   },
   {
-    name: 'Abdinasir',
+    name: 'Deka',
     title: '',
     feedback: '"Incredible service and delicious meals! The quality and taste of the food exceeded my expectations, and the delivery was prompt and seamless. I will definitely be ordering again and recommending OshaadToGo to friends and family!"',
     image: w,

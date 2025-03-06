@@ -15,20 +15,22 @@ function Foods (){
         
                </div>
                <div  className="lg:flex lg:justify-center lg:gap-10 lg:mt-24 md:flex md:justify-center md:gap-10 md:mt-24 grid grid-cols-1 pt-9 px-20 gap-6">
-                <NavLink to="/Dinner" ><div className="w-[180px] h-[180px] pt-7 bg-[#EA6D27] items-center text-center rounded-md  text-white"  >
-                    <h1 className="text-3xl font-bold">Dinner</h1>
-                    <MdDinnerDining className="text-6xl ml-16" />
-                </div></NavLink>
-                <div className="w-[180px] h-[180px] pt-7 bg-[#EA6D27] items-center text-center rounded-md  text-white"  >
-                    <h1 className="text-3xl font-bold">Lunch</h1>
-                    
-                    <MdOutlineLunchDining className="text-6xl ml-16" />
-                </div>
                 <div className="w-[180px] h-[180px] pt-7 bg-[#EA6D27] items-center text-center rounded-md  text-white"  >
                     <h1 className="text-3xl font-bold">Break-fast</h1>
                     
                     <MdBreakfastDining className="text-6xl ml-16" />
                 </div>
+                <NavLink to="/Lunch"> <div className="w-[180px] h-[180px] pt-7 bg-[#EA6D27] items-center text-center rounded-md  text-white"  >
+                    <h1 className="text-3xl font-bold">Lunch</h1>
+                    
+                    <MdOutlineLunchDining className="text-6xl ml-16" />
+                </div></NavLink>
+                <NavLink to="/Dinner" ><div className="w-[180px] h-[180px] pt-7 bg-[#EA6D27] items-center text-center rounded-md  text-white"  >
+                    <h1 className="text-3xl font-bold">Dinner</h1>
+                    <MdDinnerDining className="text-6xl ml-16" />
+                </div></NavLink>
+               
+               
                </div>
 
 

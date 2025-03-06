@@ -10,7 +10,8 @@ import logo from "../assets/images/logo.jpg"
 import logo2 from "../assets/images/logo2.jpg"
 import { IoMdClose } from "react-icons/io";
 import { useState } from "react";
-import bkl from "../assets/images/bkl.jpg"
+// import bkl from "../assets/images/bkl.jpg"
+import fill from "../assets/images/fill.jpg"
 // import { Link } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 // import React, { useState } from "react";
@@ -126,7 +127,7 @@ function Home(){
       </div>
 
       <div className="relative mt-10 lg:mt-0">
-        <img className="rounded-tl-[70px] rounded-br-[70px] h-[700px] rounded-bl-2xl rounded-tr-2xl hidden sm:block" src={bkl} alt="Restaurant view" />
+        <img className="rounded-tl-[70px] rounded-br-[70px] h-[700px] rounded-bl-2xl rounded-tr-2xl hidden sm:block" src={fill} alt="Restaurant view" />
         {/* <img className="absolute bottom-4  hidden sm:block" src={dish1} alt="Dish" /> */}
         <img className="absolute -top-24 -left-36 -z-10 opacity-10" src={Vector1} alt="Decoration vector" />
         <img className="absolute -top-24 -right-24 -z-10 opacity-10" src={vector2} alt="Decoration vector" />
