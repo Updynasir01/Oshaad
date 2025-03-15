@@ -1,14 +1,14 @@
 import abt from "../assets/images/abt.jpg"
-import straw from "../assets/images/straw.jpg"
-import kuul from "../assets/images/kuul.jpg"
-import xuf from "../assets/images/xuf.jpg"
+// import straw from "../assets/images/straw.jpg"
+// import kuul from "../assets/images/kuul.jpg"
+// import xuf from "../assets/images/xuf.jpg"
 import wafle from "../assets/images/wafle.jpg"
-import riceM from "../assets/images/riceM.jpg"
+// import riceM from "../assets/images/riceM.jpg"
 import nan from "../assets/images/nan.jpg"
 import fishBurger from "../assets/images/dinnerIm/fishburger.jpeg"
 import isma from "../assets/images/isma.jpg"
 import fruit from "../assets/images/fruit.jpg"
-import eg from "../assets/images/eg.jpg"
+// import eg from "../assets/images/eg.jpg"
 import crapes from "../assets/images/dinnerIm/crapes.jpeg"
 import meatburger from "../assets/images/dinnerIm/meatburger.jpeg"
 import minipizza from "../assets/images/dinnerIm/minipizza.jpeg"
@@ -30,12 +30,12 @@ function Dinner (){
                        </div>
                        <div className="px-24 pt-14">
                        <div className="mt-20 lg:grid lg:grid-cols-5 gap-20 md:grid md:grid-cols-3 grid grid-cols-1">
-                        <div className="h-[300px] p-2  w-[200px]">
+                        {/* <div className="h-[300px] p-2  w-[200px]">
                                         <img className="h-[200px] rounded-md w-[170px]  "  src={xuf} alt="" />
                                         <h6 className="text-[#101A24] mt-2 text-[16px] font-bold">Strawberry Shake<span className="text-[15px] text-[#5C6574] font-medium " >/ $2.40</span></h6>
                                         <p className="text-[#5C6574]">Creamy, fruity, and perfectly sweet!</p>
                         
-                                    </div>
+                                    </div> */}
                         <div className="h-[300px] p-2  w-[200px]">
                                         <img className="h-[200px] rounded-md w-[170px]  "  src={wafle} alt="" />
                                         <h6 className="text-[#101A24] mt-2 text-[16px] font-bold">Wafle<span className="text-[15px] text-[#5C6574] font-medium " >/ $5</span></h6>
@@ -114,12 +114,12 @@ function Dinner (){
                                         <p className="text-[#5C6574]">Seafood includes fish, shrimp, crab, and other ocean delicacies.</p>
                         
                                     </div>
-                        <div className="h-[300px] p-2  w-[200px]">
+                        {/* <div className="h-[300px] p-2  w-[200px]">
                                         <img className="h-[200px] rounded-md w-[170px]  "  src={eg} alt="" />
                                         <h6 className="text-[#101A24] mt-2 text-[16px] font-bold">Wafle<span className="text-[15px] text-[#5C6574] font-medium " >/ $2.40</span></h6>
                                         <p className="text-[#5C6574]">Creamy, fruity, and perfectly sweet!</p>
                         
-                                    </div>
+                                    </div> */}
 
                        </div>
 
