@@ -66,7 +66,7 @@ function Home(){
           </li>
         {/* <li className="py-2 sm:py-0 cursor-pointer hover:text-[#EA6D27] transition-colors duration-300">Events</li> */}
         <li className="py-2 sm:py-0 cursor-pointer hover:text-[#EA6D27] transition-colors duration-300">Gallery</li>
-        <li className="py-2 sm:py-0 cursor-pointer hover:text-[#EA6D27] transition-colors duration-300">About</li>
+       <NavLink to="/About"><li className="py-2 sm:py-0 cursor-pointer hover:text-[#EA6D27] transition-colors duration-300">About</li> </NavLink> 
         <li className="py-2 sm:py-0 cursor-pointer hover:text-[#EA6D27] transition-colors duration-300">Contact</li>
         </ul>
         <ul  className="hidden  sm:flex gap-4 md:gap-8 font-sans">
@@ -82,9 +82,9 @@ function Home(){
               </ul>
             )}
           </li>
-          <li>Gallery</li>
-          <li>About</li>
-          <li>Contact</li>
+          <NavLink to="/Gallery"><li className="py-2 sm:py-0 cursor-pointer hover:text-[#EA6D27] transition-colors duration-300">Gallery</li> </NavLink>
+          <NavLink to="/About"><li className="py-2 sm:py-0 cursor-pointer hover:text-[#EA6D27] transition-colors duration-300">About</li> </NavLink> 
+          <NavLink to="/Contact"><li className="py-2 sm:py-0 cursor-pointer hover:text-[#EA6D27] transition-colors duration-300">Contact</li> </NavLink>
         </ul>
       </div>
 

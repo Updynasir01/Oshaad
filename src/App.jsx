@@ -7,6 +7,7 @@ import About from "./Pages/About"
 import Foods from "./Pages/Foods"
 import Dinner from "./Pages/Dinner"
 import Lunch from "./Pages/Lunch"
+import Contact from "./Pages/Contact"
 function App (){
     return <Routes>
         <Route path="/" element={<All />}  ></Route>
@@ -17,6 +18,8 @@ function App (){
         <Route path="/Foods" element={<Foods/>}  ></Route>
         <Route path="/Dinner" element={<Dinner/>}  ></Route>
         <Route path="/Lunch" element={<Lunch/>}  ></Route>
+        <Route path="/Contact" element={<Contact/>}  ></Route>
+        
 
     </Routes>
 
