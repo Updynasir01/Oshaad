@@ -29,9 +29,9 @@ function Contact() {
                             <h3 className="text-xl font-semibold">Our Location</h3>
                         </div>
                         <p className="text-gray-600">
-                            123 Islamic Street<br />
-                            City, State 12345<br />
-                            Country
+                            Waddada Dabka<br />
+                            Mogadishu<br />
+                            Somalia
                         </p>
                     </div>
 
@@ -41,7 +41,7 @@ function Contact() {
                             <h3 className="text-xl font-semibold">Phone Number</h3>
                         </div>
                         <p className="text-gray-600">
-                            +1 (123) 456-7890
+                            +252 613025147
                         </p>
                     </div>
 
@@ -62,8 +62,8 @@ function Contact() {
                         </div>
                         <p className="text-gray-600">
                             Monday - Friday: 9:00 AM - 6:00 PM<br />
-                            Saturday: 10:00 AM - 4:00 PM<br />
-                            Sunday: Closed
+                            Firday: 10:00 AM - 4:00 PM<br />
+                           
                         </p>
                     </div>
                 </div>

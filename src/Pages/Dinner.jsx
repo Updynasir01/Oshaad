@@ -50,19 +50,19 @@ function Dinner (){
                                     </div>
                         <div className="h-[300px] p-2  w-[200px]">
                                         <img className="h-[200px] rounded-md w-[170px]  "  src={nan} alt="" />
-                                        <h6 className="text-[#101A24] mt-2 text-[16px] font-bold">Wafle<span className="text-[15px] text-[#5C6574] font-medium " >/ $2.40</span></h6>
+                                        <h6 className="text-[#101A24] mt-2 text-[16px] font-bold">Wafle ice<span className="text-[15px] text-[#5C6574] font-medium " >/ $2.40</span></h6>
                                         <p className="text-[#5C6574]">Creamy, fruity, and perfectly sweet!</p>
                         
                                     </div>
-                        <div className="h-[300px] p-2  w-[200px]">
+                        {/* <div className="h-[300px] p-2  w-[200px]">
                                         <img className="h-[200px] rounded-md w-[170px]  "  src={isma} alt="" />
-                                        <h6 className="text-[#101A24] mt-2 text-[16px] font-bold">Wafle<span className="text-[15px] text-[#5C6574] font-medium " >/ $2.40</span></h6>
+                                        <h6 className="text-[#101A24] mt-2 text-[16px] font-bold"><span className="text-[15px] text-[#5C6574] font-medium " >/ $2.40</span></h6>
                                         <p className="text-[#5C6574]">Creamy, fruity, and perfectly sweet!</p>
                         
-                                    </div>
+                                    </div> */}
                         <div className="h-[300px] p-2  w-[200px]">
                                         <img className="h-[200px] rounded-md w-[170px]  "  src={fishBurger} alt="" />
-                                        <h6 className="text-[#101A24] mt-2 text-[16px] font-bold">Wafle<span className="text-[15px] text-[#5C6574] font-medium " >/ $2.40</span></h6>
+                                        <h6 className="text-[#101A24] mt-2 text-[16px] font-bold">Chicken burger<span className="text-[15px] text-[#5C6574] font-medium " >/ $2.40</span></h6>
                                         <p className="text-[#5C6574]">Creamy, fruity, and perfectly sweet!</p>
                         
                                     </div>
