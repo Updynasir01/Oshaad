@@ -22,7 +22,7 @@ function Footer (){
             </div>
             <p className="w-[300px] text-[#5C6574] mt-4 text-[14px]" >Welcome to OshaadToGo! Savor fresh, flavorful dishes in a cozy setting. Perfect for any occasion. Reserve your table today!</p>
             <h6 className="mt-5 font-bold text-[12px]" >OPENING HOURS</h6>
-            <p className="mt-5 text-[#5C6574] text-[15px]">Monday - Friday  </p>
+            <p className="mt-5 text-[#5C6574] text-[15px]">saturday - Friday  </p>
             <p className="mt-1 text-[#5C6574] text-[15px]">8:00 am to 9:00 pm  </p>
 
         </div>
